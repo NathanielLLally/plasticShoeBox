@@ -1,0 +1,2117 @@
+# ASCII Adjustments [#section-B.4.1]
+sub execAAA($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execAAS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execAAM($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execAAD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Add with Carry [#section-B.4.2]
+sub execADC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Add Integers [#section-B.4.3]
+sub execADD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# ADD Packed Double-Precision FP Values [#section-B.4.4]
+sub execADDPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# ADD Packed Single-Precision FP Values [#section-B.4.5]
+sub execADDPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# ADD Scalar Double-Precision FP Values [#section-B.4.6]
+sub execADDSD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# ADD Scalar Single-Precision FP Values [#section-B.4.7]
+sub execADDSS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Bitwise AND [#section-B.4.8]
+sub execAND($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Bitwise Logical AND NOT of Packed Double-Precision FP Values [#section-B.4.9]
+sub execANDNPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Bitwise Logical AND NOT of Packed Single-Precision FP Values [#section-B.4.10]
+sub execANDNPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Bitwise Logical AND For Single FP [#section-B.4.11]
+sub execANDPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Bitwise Logical AND For Single FP [#section-B.4.12]
+sub execANDPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Adjust RPL Field of Selector [#section-B.4.13]
+sub execARPL($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Check Array Index against Bounds [#section-B.4.14]
+sub execBOUND($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Bit Scan [#section-B.4.15]
+sub execBSF($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execBSR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Byte Swap [#section-B.4.16]
+sub execBSWAP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Bit Test [#section-B.4.17]
+sub execBT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execBTC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execBTR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execBTS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Call Subroutine [#section-B.4.18]
+sub execCALL($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Sign Extensions [#section-B.4.19]
+sub execCBW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execCWD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execCDQ($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execCWDE($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Clear Flags [#section-B.4.20]
+sub execCLC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execCLD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execCLI($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execCLTS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Flush Cache Line [#section-B.4.21]
+sub execCLFLUSH($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Complement Carry Flag [#section-B.4.22]
+sub execCMC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Conditional Move [#section-B.4.23]
+sub execCMOVCC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Compare Integers [#section-B.4.24]
+sub execCMP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Double-Precision FP Compare         [#section-B.4.25]
+sub execCMPCCPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Compare         [#section-B.4.26]
+sub execCMPCCPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Compare Strings [#section-B.4.27]
+sub execCMPSB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execCMPSW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execCMPSD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scalar Double-Precision FP Compare         [#section-B.4.28]
+sub execCMPCCSD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scalar Single-Precision FP Compare         [#section-B.4.29]
+sub execCMPCCSS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Compare and Exchange [#section-B.4.30]
+sub execCMPXCHG($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execCMPXCHG486($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Compare and Exchange Eight Bytes [#section-B.4.31]
+sub execCMPXCHG8B($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scalar Ordered Double-Precision FP Compare and Set EFLAGS [#section-B.4.32]
+sub execCOMISD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scalar Ordered Single-Precision FP Compare and Set EFLAGS [#section-B.4.33]
+sub execCOMISS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Get CPU Identification Code [#section-B.4.34]
+sub execCPUID($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Signed INT32 to Packed Double-Precision FP Conversion [#section-B.4.35]
+sub execCVTDQ2PD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Signed INT32 to Packed Single-Precision FP Conversion [#section-B.4.36]
+sub execCVTDQ2PS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Double-Precision FP to Packed Signed INT32 Conversion [#section-B.4.37]
+sub execCVTPD2DQ($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Double-Precision FP to Packed Signed INT32 Conversion [#section-B.4.38]
+sub execCVTPD2PI($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Double-Precision FP to Packed Single-Precision FP Conversion [#section-B.4.39]
+sub execCVTPD2PS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Signed INT32 to Packed Double-Precision FP Conversion [#section-B.4.40]
+sub execCVTPI2PD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Signed INT32 to Packed Single-FP Conversion [#section-B.4.41]
+sub execCVTPI2PS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP to Packed Signed INT32 Conversion [#section-B.4.42]
+sub execCVTPS2DQ($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP to Packed Double-Precision FP Conversion [#section-B.4.43]
+sub execCVTPS2PD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP to Packed Signed INT32 Conversion [#section-B.4.44]
+sub execCVTPS2PI($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scalar Double-Precision FP to Signed INT32 Conversion [#section-B.4.45]
+sub execCVTSD2SI($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scalar Double-Precision FP to Scalar Single-Precision FP Conversion [#section-B.4.46]
+sub execCVTSD2SS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Signed INT32 to Scalar Double-Precision FP Conversion [#section-B.4.47]
+sub execCVTSI2SD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Signed INT32 to Scalar Single-Precision FP Conversion [#section-B.4.48]
+sub execCVTSI2SS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scalar Single-Precision FP to Scalar Double-Precision FP Conversion [#section-B.4.49]
+sub execCVTSS2SD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scalar Single-Precision FP to Signed INT32 Conversion [#section-B.4.50]
+sub execCVTSS2SI($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Double-Precision FP to Packed Signed INT32 Conversion with Truncation [#section-B.4.51]
+sub execCVTTPD2DQ($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Double-Precision FP to Packed Signed INT32 Conversion with Truncation [#section-B.4.52]
+sub execCVTTPD2PI($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP to Packed Signed INT32 Conversion with Truncation [#section-B.4.53]
+sub execCVTTPS2DQ($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP to Packed Signed INT32 Conversion with Truncation [#section-B.4.54]
+sub execCVTTPS2PI($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scalar Double-Precision FP to Signed INT32 Conversion with Truncation [#section-B.4.55]
+sub execCVTTSD2SI($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scalar Single-Precision FP to Signed INT32 Conversion with Truncation [#section-B.4.56]
+sub execCVTTSS2SI($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Decimal Adjustments [#section-B.4.57]
+sub execDAA($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execDAS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Decrement Integer [#section-B.4.58]
+sub execDEC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Unsigned Integer Divide [#section-B.4.59]
+sub execDIV($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Double-Precision FP Divide [#section-B.4.60]
+sub execDIVPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Divide [#section-B.4.61]
+sub execDIVPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scalar Double-Precision FP Divide [#section-B.4.62]
+sub execDIVSD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scalar Single-Precision FP Divide [#section-B.4.63]
+sub execDIVSS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Empty MMX State [#section-B.4.64]
+sub execEMMS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Create Stack Frame [#section-B.4.65]
+sub execENTER($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Calculate 2**X-1 [#section-B.4.66]
+sub execF2XM1($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point Absolute Value [#section-B.4.67]
+sub execFABS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point Addition [#section-B.4.68]
+sub execFADD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFADDP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# BCD Floating-Point Load and Store [#section-B.4.69]
+sub execFBLD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFBSTP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point Change Sign [#section-B.4.70]
+sub execFCHS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Clear Floating-Point Exceptions [#section-B.4.71]
+sub execFCLEX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFNCLEX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point Conditional Move [#section-B.4.72]
+sub execFCMOVCC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point Compare [#section-B.4.73]
+sub execFCOM($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFCOMP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFCOMPP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFCOMI($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFCOMIP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Cosine [#section-B.4.74]
+sub execFCOS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Decrement Floating-Point Stack Pointer [#section-B.4.75]
+sub execFDECSTP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Disable and Enable Floating-Point Interrupts [#section-B.4.76]
+sub execFXDISI($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFXENI($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point Division [#section-B.4.77]
+sub execFDIV($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFDIVP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFDIVR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFDIVRP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Faster Enter/Exit of the MMX or floating-point state [#section-B.4.78]
+sub execFEMMS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Flag Floating-Point Register as Unused [#section-B.4.79]
+sub execFFREE($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point/Integer Addition [#section-B.4.80]
+sub execFIADD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point/Integer Compare [#section-B.4.81]
+sub execFICOM($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFICOMP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point/Integer Division [#section-B.4.82]
+sub execFIDIV($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFIDIVR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point/Integer Conversion [#section-B.4.83]
+sub execFILD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFIST($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFISTP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point/Integer Multiplication [#section-B.4.84]
+sub execFIMUL($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Increment Floating-Point Stack Pointer [#section-B.4.85]
+sub execFINCSTP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Initialise Floating-Point Unit [#section-B.4.86]
+sub execFINIT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFNINIT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point/Integer Subtraction [#section-B.4.87]
+sub execFISUB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point Load [#section-B.4.88]
+sub execFLD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point Load Constants [#section-B.4.89]
+sub execFLDXX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Load Floating-Point Control Word [#section-B.4.90]
+sub execFLDCW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Load Floating-Point Environment [#section-B.4.91]
+sub execFLDENV($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point Multiply [#section-B.4.92]
+sub execFMUL($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFMULP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point No Operation [#section-B.4.93]
+sub execFNOP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Arctangent and Tangent [#section-B.4.94]
+sub execFPATAN($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFPTAN($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point Partial Remainder [#section-B.4.95]
+sub execFPREM($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFPREM1($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point Round to Integer [#section-B.4.96]
+sub execFRNDINT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Save/Restore Floating-Point State [#section-B.4.97]
+sub execFSAVE($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFRSTOR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scale Floating-Point Value by Power of Two [#section-B.4.98]
+sub execFSCALE($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Set Protected Mode [#section-B.4.99]
+sub execFSETPM($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Sine and Cosine [#section-B.4.100]
+sub execFSIN($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFSINCOS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point Square Root [#section-B.4.101]
+sub execFSQRT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point Store [#section-B.4.102]
+sub execFST($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFSTP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Store Floating-Point Control Word [#section-B.4.103]
+sub execFSTCW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Store Floating-Point Environment [#section-B.4.104]
+sub execFSTENV($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Store Floating-Point Status Word [#section-B.4.105]
+sub execFSTSW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point Subtract [#section-B.4.106]
+sub execFSUB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFSUBP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFSUBR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFSUBRP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFTST($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execST0($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point Unordered Compare [#section-B.4.108]
+sub execFUCOMXX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFXAM($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execST0($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Floating-Point Exchange [#section-B.4.110]
+sub execFXCH($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFXRSTOR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execMMX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execSSE($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFXSAVE($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execMMX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execSSE($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Extract Exponent and Significand [#section-B.4.113]
+sub execFXTRACT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Compute Y times Log2(X) or Log2(X+1) [#section-B.4.114]
+sub execFYL2X($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execFYL2XP1($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Halt Processor [#section-B.4.115]
+sub execHLT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Insert Bit String [#section-B.4.116]
+sub execIBTS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Signed Integer Divide [#section-B.4.117]
+sub execIDIV($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Signed Integer Multiply [#section-B.4.118]
+sub execIMUL($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Input from I/O Port [#section-B.4.119]
+sub execIN($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Increment Integer [#section-B.4.120]
+sub execINC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execINC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Input String from I/O Port [#section-B.4.121]
+sub execINSB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execINSW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execINSD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Software Interrupt [#section-B.4.122]
+sub execINT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Breakpoints [#section-B.4.123]
+sub execINT3($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execINT1($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execICEBP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execINT01($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Interrupt if Overflow [#section-B.4.124]
+sub execINTO($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Invalidate Internal Caches [#section-B.4.125]
+sub execINVD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Invalidate TLB Entry [#section-B.4.126]
+sub execINVLPG($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Return from Interrupt [#section-B.4.127]
+sub execIRET($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execIRETW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execIRETD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Conditional Branch [#section-B.4.128]
+sub execJCC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Jump if CX/ECX Zero [#section-B.4.129]
+sub execJCXZ($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execJECXZ($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Jump [#section-B.4.130]
+sub execJMP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Load AH from Flags [#section-B.4.131]
+sub execLAHF($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Load Access Rights [#section-B.4.132]
+sub execLAR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Load Streaming SIMD Extension Control/Status [#section-B.4.133]
+sub execLDMXCSR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Load Far Pointer [#section-B.4.134]
+sub execLDS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execLES($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execLFS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execLGS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execLSS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Load Effective Address [#section-B.4.135]
+sub execLEA($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Destroy Stack Frame [#section-B.4.136]
+sub execLEAVE($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Load Fence [#section-B.4.137]
+sub execLFENCE($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Load Descriptor Tables [#section-B.4.138]
+sub execLGDT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execLIDT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execLLDT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Load/Store Machine Status Word [#section-B.4.139]
+sub execLMSW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Load Processor State [#section-B.4.140]
+sub execLOADALL($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execLOADALL286($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Load from String [#section-B.4.141]
+sub execLODSB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execLODSW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execLODSD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Loop with Counter [#section-B.4.142]
+sub execLOOP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execLOOPE($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execLOOPZ($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execLOOPNE($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execLOOPNZ($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Load Segment Limit [#section-B.4.143]
+sub execLSL($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Load Task Register [#section-B.4.144]
+sub execLTR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Byte Mask Write [#section-B.4.145]
+sub execMASKMOVDQU($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Byte Mask Write [#section-B.4.146]
+sub execMASKMOVQ($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Return Packed Double-Precision FP Maximum [#section-B.4.147]
+sub execMAXPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Return Packed Single-Precision FP Maximum [#section-B.4.148]
+sub execMAXPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Return Scalar Double-Precision FP Maximum [#section-B.4.149]
+sub execMAXSD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Return Scalar Single-Precision FP Maximum [#section-B.4.150]
+sub execMAXSS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Memory Fence [#section-B.4.151]
+sub execMFENCE($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Return Packed Double-Precision FP Minimum [#section-B.4.152]
+sub execMINPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Return Packed Single-Precision FP Minimum [#section-B.4.153]
+sub execMINPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Return Scalar Double-Precision FP Minimum [#section-B.4.154]
+sub execMINSD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Return Scalar Single-Precision FP Minimum [#section-B.4.155]
+sub execMINSS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Data [#section-B.4.156]
+sub execMOV($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Aligned Packed Double-Precision FP Values [#section-B.4.157]
+sub execMOVAPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Aligned Packed Single-Precision FP Values [#section-B.4.158]
+sub execMOVAPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Doubleword to/from MMX Register [#section-B.4.159]
+sub execMOVD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Quadword from XMM to MMX register. [#section-B.4.160]
+sub execMOVDQ2Q($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Aligned Double Quadword [#section-B.4.161]
+sub execMOVDQA($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Unaligned Double Quadword [#section-B.4.162]
+sub execMOVDQU($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Packed Single-Precision FP High to Low [#section-B.4.163]
+sub execMOVHLPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move High Packed Double-Precision FP [#section-B.4.164]
+sub execMOVHPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move High Packed Single-Precision FP [#section-B.4.165]
+sub execMOVHPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Packed Single-Precision FP Low to High [#section-B.4.166]
+sub execMOVLHPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Low Packed Double-Precision FP [#section-B.4.167]
+sub execMOVLPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Low Packed Single-Precision FP [#section-B.4.168]
+sub execMOVLPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Extract Packed Double-Precision FP Sign Mask [#section-B.4.169]
+sub execMOVMSKPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Extract Packed Single-Precision FP Sign Mask [#section-B.4.170]
+sub execMOVMSKPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Double Quadword Non Temporal [#section-B.4.171]
+sub execMOVNTDQ($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Doubleword Non Temporal [#section-B.4.172]
+sub execMOVNTI($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Aligned Four Packed Single-Precision FP Values Non Temporal [#section-B.4.173]
+sub execMOVNTPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Aligned Four Packed Single-Precision FP Values Non Temporal [#section-B.4.174]
+sub execMOVNTPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Quadword Non Temporal [#section-B.4.175]
+sub execMOVNTQ($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Quadword to/from MMX Register [#section-B.4.176]
+sub execMOVQ($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Quadword from MMX to XMM register. [#section-B.4.177]
+sub execMOVQ2DQ($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move String [#section-B.4.178]
+sub execMOVSB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execMOVSW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execMOVSD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Scalar Double-Precision FP Value [#section-B.4.179]
+sub execMOVSD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Scalar Single-Precision FP Value [#section-B.4.180]
+sub execMOVSS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Data with Sign or Zero Extend [#section-B.4.181]
+sub execMOVSX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execMOVZX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Unaligned Packed Double-Precision FP Values [#section-B.4.182]
+sub execMOVUPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Unaligned Packed Single-Precision FP Values [#section-B.4.183]
+sub execMOVUPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Unsigned Integer Multiply [#section-B.4.184]
+sub execMUL($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-FP Multiply [#section-B.4.185]
+sub execMULPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-FP Multiply [#section-B.4.186]
+sub execMULPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scalar Single-FP Multiply [#section-B.4.187]
+sub execMULSD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scalar Single-FP Multiply [#section-B.4.188]
+sub execMULSS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Two's and One's Complement [#section-B.4.189]
+sub execNEG($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execNOT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# No Operation [#section-B.4.190]
+sub execNOP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Bitwise OR [#section-B.4.191]
+sub execOR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Bit-wise Logical OR of Double-Precision FP Data [#section-B.4.192]
+sub execORPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Bit-wise Logical OR of Single-Precision FP Data [#section-B.4.193]
+sub execORPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Output Data to I/O Port [#section-B.4.194]
+sub execOUT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Output String to I/O Port [#section-B.4.195]
+sub execOUTSB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execOUTSW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execOUTSD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Pack Data [#section-B.4.196]
+sub execPACKSSDW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execPACKSSWB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execPACKUSWB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Add Packed Integers [#section-B.4.197]
+sub execPADDB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execPADDW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execPADDD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Add Packed Quadword Integers [#section-B.4.198]
+sub execPADDQ($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Add Packed Signed Integers With Saturation [#section-B.4.199]
+sub execPADDSB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execPADDSW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# MMX Packed Addition to Implicit Destination [#section-B.4.200]
+sub execPADDSIW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Add Packed Unsigned Integers With Saturation [#section-B.4.201]
+sub execPADDUSB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execPADDUSW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# MMX Bitwise AND and AND-NOT [#section-B.4.202]
+sub execPAND($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execPANDN($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Spin Loop Hint [#section-B.4.203]
+sub execPAUSE($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# MMX Packed Average [#section-B.4.204]
+sub execPAVEB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Average Packed Integers [#section-B.4.205]
+sub execPAVGB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execPAVGW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Average of unsigned packed 8-bit values [#section-B.4.206]
+sub execPAVGUSB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Compare Packed Integers. [#section-B.4.207]
+sub execPCMPXX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# MMX Packed Distance and Accumulate with Implied Register [#section-B.4.208]
+sub execPDISTIB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Extract Word [#section-B.4.209]
+sub execPEXTRW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP to Integer Convert [#section-B.4.210]
+sub execPF2ID($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP to Integer Word Convert [#section-B.4.211]
+sub execPF2IW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Accumulate [#section-B.4.212]
+sub execPFACC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Addition [#section-B.4.213]
+sub execPFADD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Compare    [#section-B.4.214]
+sub execPFCMPXX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Maximum [#section-B.4.215]
+sub execPFMAX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Minimum [#section-B.4.216]
+sub execPFMIN($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Multiply [#section-B.4.217]
+sub execPFMUL($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Negative Accumulate [#section-B.4.218]
+sub execPFNACC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Mixed Accumulate [#section-B.4.219]
+sub execPFPNACC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Reciprocal Approximation [#section-B.4.220]
+sub execPFRCP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Reciprocal, First Iteration Step [#section-B.4.221]
+sub execPFRCPIT1($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Reciprocal/ Reciprocal Square Root, Second Iteration Step [#section-B.4.222]
+sub execPFRCPIT2($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Reciprocal Square Root, First Iteration Step [#section-B.4.223]
+sub execPFRSQIT1($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Reciprocal Square Root Approximation [#section-B.4.224]
+sub execPFRSQRT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Subtract [#section-B.4.225]
+sub execPFSUB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Reverse Subtract [#section-B.4.226]
+sub execPFSUBR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Doubleword Integer to Single-Precision FP Convert [#section-B.4.227]
+sub execPI2FD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Word Integer to Single-Precision FP Convert [#section-B.4.228]
+sub execPF2IW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Insert Word [#section-B.4.229]
+sub execPINSRW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Multiply and Accumulate with Rounding [#section-B.4.230]
+sub execPMACHRIW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# MMX Packed Multiply and Add [#section-B.4.231]
+sub execPMADDWD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# MMX Packed Magnitude [#section-B.4.232]
+sub execPMAGW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Signed Integer Word Maximum [#section-B.4.233]
+sub execPMAXSW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Unsigned Integer Byte Maximum [#section-B.4.234]
+sub execPMAXUB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Signed Integer Word Minimum [#section-B.4.235]
+sub execPMINSW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Unsigned Integer Byte Minimum [#section-B.4.236]
+sub execPMINUB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Move Byte Mask To Integer [#section-B.4.237]
+sub execPMOVMSKB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Multiply Packed 16-bit Integers With Rounding, and Store High Word [#section-B.4.238]
+sub execPMULHRWC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execPMULHRIW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Multiply Packed 16-bit Integers With Rounding, and Store High Word [#section-B.4.239]
+sub execPMULHRWA($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Multiply Packed 16-bit Integers, and Store High Word [#section-B.4.240]
+sub execPMULHUW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Multiply Packed 16-bit Integers, and Store [#section-B.4.241]
+sub execPMULHW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execPMULLW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Multiply Packed Unsigned 32-bit Integers, and Store. [#section-B.4.242]
+sub execPMULUDQ($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# MMX Packed Conditional Move [#section-B.4.243]
+sub execPMVCCZB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Pop Data from Stack [#section-B.4.244]
+sub execPOP($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Pop All General-Purpose Registers [#section-B.4.245]
+sub execPOPAX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Pop Flags Register [#section-B.4.246]
+sub execPOPFX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# MMX Bitwise OR [#section-B.4.247]
+sub execPOR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Prefetch Data Into Caches [#section-B.4.248]
+sub execPREFETCH($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Prefetch Data Into Caches     [#section-B.4.249]
+sub execPREFETCHH($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Sum of Absolute Differences [#section-B.4.250]
+sub execPSADBW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Shuffle Packed Doublewords [#section-B.4.251]
+sub execPSHUFD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Shuffle Packed High Words [#section-B.4.252]
+sub execPSHUFHW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Shuffle Packed Low Words [#section-B.4.253]
+sub execPSHUFLW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Shuffle Packed Words [#section-B.4.254]
+sub execPSHUFW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Data Bit Shift Left Logical [#section-B.4.255]
+sub execPSLLX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Data Bit Shift Right Arithmetic [#section-B.4.256]
+sub execPSRAX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Data Bit Shift Right Logical [#section-B.4.257]
+sub execPSRLX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Subtract Packed Integers [#section-B.4.258]
+sub execPSUBX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Subtract Packed Integers With Saturation [#section-B.4.259]
+sub execPSUBSXX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execPSUBUSX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# MMX Packed Subtract with Saturation to Implied Destination [#section-B.4.260]
+sub execPSUBSIW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Swap Packed Data  [#section-B.4.261]
+sub execPSWAPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Unpack and Interleave Data [#section-B.4.262]
+sub execPUNPCKXXX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Push Data on Stack [#section-B.4.263]
+sub execPUSH($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Push All General-Purpose Registers [#section-B.4.264]
+sub execPUSHAX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Push Flags Register [#section-B.4.265]
+sub execPUSHFX($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# MMX Bitwise XOR [#section-B.4.266]
+sub execPXOR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Bitwise Rotate through Carry Bit [#section-B.4.267]
+sub execRCL($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execRCR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Reciprocal [#section-B.4.268]
+sub execRCPPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scalar Single-Precision FP Reciprocal [#section-B.4.269]
+sub execRCPSS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Read Model-Specific Registers [#section-B.4.270]
+sub execRDMSR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Read Performance-Monitoring Counters [#section-B.4.271]
+sub execRDPMC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Read SMM Header Pointer Register [#section-B.4.272]
+sub execRDSHR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Read Time-Stamp Counter [#section-B.4.273]
+sub execRDTSC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Return from Procedure Call [#section-B.4.274]
+sub execRET($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execRETF($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execRETN($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Bitwise Rotate [#section-B.4.275]
+sub execROL($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execROR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Restore Segment Register and Descriptor [#section-B.4.276]
+sub execRSDC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Restore Segment Register and Descriptor [#section-B.4.277]
+sub execRSLDT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Resume from System-Management Mode [#section-B.4.278]
+sub execRSM($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Square Root Reciprocal [#section-B.4.279]
+sub execRSQRTPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scalar Single-Precision FP Square Root Reciprocal [#section-B.4.280]
+sub execRSQRTSS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Restore TSR and Descriptor [#section-B.4.281]
+sub execRSTS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Store AH to Flags [#section-B.4.282]
+sub execSAHF($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Bitwise Arithmetic Shifts [#section-B.4.283]
+sub execSAL($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execSAR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Set AL from Carry Flag [#section-B.4.284]
+sub execSALC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Subtract with Borrow [#section-B.4.285]
+sub execSBB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scan String [#section-B.4.286]
+sub execSCASB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execSCASW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execSCASD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Set Register from Condition [#section-B.4.287]
+sub execSETCC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Store Fence [#section-B.4.288]
+sub execSFENCE($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Store Descriptor Table Pointers [#section-B.4.289]
+sub execSGDT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execSIDT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execSLDT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Bitwise Logical Shifts [#section-B.4.290]
+sub execSHL($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execSHR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Bitwise Double-Precision Shifts [#section-B.4.291]
+sub execSHLD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execSHRD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Shuffle Packed Double-Precision FP Values [#section-B.4.292]
+sub execSHUFPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Shuffle Packed Single-Precision FP Values [#section-B.4.293]
+sub execSHUFPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# System Management Interrupt [#section-B.4.294]
+sub execSMI($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Software SMM Entry (CYRIX) [#section-B.4.295]
+sub execSMINT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execSMINTOLD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Store Machine Status Word [#section-B.4.296]
+sub execSMSW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Double-Precision FP Square Root [#section-B.4.297]
+sub execSQRTPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Square Root [#section-B.4.298]
+sub execSQRTPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scalar Double-Precision FP Square Root [#section-B.4.299]
+sub execSQRTSD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scalar Single-Precision FP Square Root [#section-B.4.300]
+sub execSQRTSS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Set Flags [#section-B.4.301]
+sub execSTC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execSTD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execSTI($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Store Streaming SIMD Extension Control/Status [#section-B.4.302]
+sub execSTMXCSR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Store Byte to String [#section-B.4.303]
+sub execSTOSB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execSTOSW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execSTOSD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Store Task Register [#section-B.4.304]
+sub execSTR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Subtract Integers [#section-B.4.305]
+sub execSUB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Double-Precision FP Subtract [#section-B.4.306]
+sub execSUBPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Packed Single-Precision FP Subtract [#section-B.4.307]
+sub execSUBPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scalar Single-FP Subtract [#section-B.4.308]
+sub execSUBSD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Scalar Single-FP Subtract [#section-B.4.309]
+sub execSUBSS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Save Segment Register and Descriptor [#section-B.4.310]
+sub execSVDC($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Save LDTR and Descriptor [#section-B.4.311]
+sub execSVLDT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Save TSR and Descriptor [#section-B.4.312]
+sub execSVTS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Call Operating System [#section-B.4.313]
+sub execSYSCALL($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Fast System Call [#section-B.4.314]
+sub execSYSENTER($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Fast Return From System Call [#section-B.4.315]
+sub execSYSEXIT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Return From Operating System [#section-B.4.316]
+sub execSYSRET($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Test Bits (notional bitwise AND) [#section-B.4.317]
+sub execTEST($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Unordered Scalar Double-Precision FP compare and set EFLAGS [#section-B.4.318]
+sub execUCOMISD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Unordered Scalar Single-Precision FP compare and set EFLAGS [#section-B.4.319]
+sub execUCOMISS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Undefined Instruction [#section-B.4.320]
+sub execUD0($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execUD1($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execUD2($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# User Move Data [#section-B.4.321]
+sub execUMOV($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Unpack and Interleave High Packed Double-Precision FP Values [#section-B.4.322]
+sub execUNPCKHPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Unpack and Interleave High Packed Single-Precision FP Values [#section-B.4.323]
+sub execUNPCKHPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Unpack and Interleave Low Packed Double-Precision FP Data [#section-B.4.324]
+sub execUNPCKLPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Unpack and Interleave Low Packed Single-Precision FP Data [#section-B.4.325]
+sub execUNPCKLPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Verify Segment Readability/Writability [#section-B.4.326]
+sub execVERR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+sub execVERW($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Wait for Floating-Point Processor [#section-B.4.327]
+sub execWAIT($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Write Back and Invalidate Cache [#section-B.4.328]
+sub execWBINVD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Write Model-Specific Registers [#section-B.4.329]
+sub execWRMSR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Write SMM Header Pointer Register [#section-B.4.330]
+sub execWRSHR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Exchange and Add [#section-B.4.331]
+sub execXADD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Extract Bit String [#section-B.4.332]
+sub execXBTS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Exchange [#section-B.4.333]
+sub execXCHG($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Translate Byte in Lookup Table [#section-B.4.334]
+sub execXLATB($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Bitwise Exclusive OR [#section-B.4.335]
+sub execXOR($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Bitwise Logical XOR of Double-Precision FP Values [#section-B.4.336]
+sub execXORPD($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
+# Bitwise Logical XOR of Single-Precision FP Values [#section-B.4.337]
+sub execXORPS($) {
+  my $asm = shift;
+  DEBUG("***implement me '%s'\n", $asm->{insn});
+}
